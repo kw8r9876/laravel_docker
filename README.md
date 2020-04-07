@@ -8,9 +8,15 @@
 docker-compose up
 
 # コンポーサーインストールとマイグレーション、シーディング
+```
 docker-compose exec php bash
+```
+```
 composer install
+```
+```
 php artisan migrate:refresh --seed --force
+```
 
 # nuxtjsの設定
 nuxt.config.js
