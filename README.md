@@ -1,5 +1,9 @@
 # laravel_docker
 
+# ソースの格納場所
+./app/frontend
+./app/backend
+
 # 格dockerコンテナの起動
 docker-compose up
 
