@@ -10,7 +10,9 @@ php artisan migrate:refresh --seed --force
 
 # nuxtjsの設定
 nuxt.config.js
+```
   proxy: {
     // "/api": "http://localhost:8000"
     "/api": "http://docker.for.mac.localhost:8000"
   }
+```
