@@ -2,6 +2,14 @@
 
 # ソースの格納場所
 ./app/frontend
+
+以下を変更
+package.json
+```
+  "scripts": {
+    "dev": "NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
+```
+
 ./app/backend
 
 # 格dockerコンテナの起動
