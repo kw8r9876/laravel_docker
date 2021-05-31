@@ -20,7 +20,7 @@ services:
       bash -c "npm install &&
       npm rebuild node-sass &&
       npm run lintfix &&
-      npm run dev"
+      npm run _dev"
     tty: true
     stdin_open: true
 
